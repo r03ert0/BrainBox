@@ -67,9 +67,9 @@
 					"<a class='a2page' href='page2' para='para2'>create a new annotation layer</a> or delete one, respectively.",
 
 					"<br>While the MRIs stay stored on the web, your changes & annotations will be ",
-					"<a class='a2page' href='page2' para='para2'>saved to the BrainBox database</a>. To save changes you made in the annotation table, just clcik ",
+					"<a class='a2page' href='page2' para='para2'>saved to the BrainBox database</a>. To save changes you made in the annotation table, just click ",
 					"<br><img src='images/floppy.svg' style='width:25px; height:25px; vertical-align:middle;' /> save, ",
-					"while changes in the atlas-files will be automatically be saved every ten minutes or once you close the page. ",
+					"while changes in the atlas-files will be automatically saved every ten minutes and current changes will be stored in the RAM in the meantime. ",
 					"To get back to your annotation once you left the page, you will either find a link on the home page – if you were the person who added the MRI – ",
 					"or you will find it among the atlases on your user page.",
 
