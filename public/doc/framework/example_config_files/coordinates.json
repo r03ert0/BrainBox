@@ -1,0 +1,58 @@
+[
+{ 
+	"name": "coord1",
+	"coord": {"x": -30, "y": 40,"z":30},
+	"color": {"r": 0.0, "g": 1.0, "b": 0.0},
+	"size": 2.5,
+	"display":false 
+},
+{ 
+	"name": "coord2",
+	"coord": {"x": 30, "y": 40,"z":30},
+	"color": {"r": 0.0, "g": 1.0, "b": 0.0},
+	"size": 2.5,
+	"display": false	 
+},
+{ 
+	"name": "coord3",
+	"coord": {"x": 54, "y": -36,"z":10},
+	"color": {"r": 1.0, "g": 0.0, "b": 0.0},
+	"size": 5,
+	"display": false
+},
+{ 
+	"name": "coord4",
+	"coord": {"x": -35, "y": -40,"z":10},
+	"color": {"r": 1.0, "g": 0.0, "b": 0.0},
+	"size": 5,
+	"display": false
+},
+{ 
+	"name": "coord5",
+	"coord": {"x": -40, "y": 20,"z":-20},
+	"color": {"r": 0.0, "g": 1.0, "b": 0.0},
+	"size": 2.5,
+	"display": false 
+},
+{ 
+	"name": "coord6",
+	"coord": {"x": 40, "y": 20,"z":-20},
+	"color": {"r": 0.0, "g": 1.0, "b": 0.0},
+	"size": 2.5,
+	"display": false
+},
+{ 
+	"name": "coord7",
+	"coord": {"x": 50, "y": -50,"z":-20},
+	"color": {"r": 0.0, "g": 1.0, "b": 0.0},
+	"size": 2.5,
+	"display": false
+},
+{ 
+	"name": "coord8",
+	"coord": {"x": -50, "y": -50,"z":-20},
+	"color": {"r": 0.0, "g": 1.0, "b": 0.0},
+	"size": 2.5,
+	"display": false
+}
+]

@@ -1,0 +1,325 @@
+[
+	{
+		"id": "page1",
+		"title": "BrainBox: Introduction & tool overview",
+		"paragraphs" : [
+		{
+			"text" : "<br>Share, visualize & annotate your MRI brain data collaboratively!",
+			"image_url": "images/001_BrainBoxYourProject.png",
+			"image_title": "BrainBox: a web application for real-time collaborative curation, quality control & annotation of huge MRI data sets.",
+			"image_text": "*** short illustration and user guide below *** & also check out our video on YouTube! ***"
+		},
+		{
+			"text" : [
+					"<strong>Visualisation:</strong> BrainBox is an online, real-time, 3D stereotaxic viewer to visualize MRI data & multiple annotations. ",
+					"You can",
+					"<br><img src='images/minus.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<img src='images/slider.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<img src='images/plus.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<img src='images/navPrevSlice.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<img src='images/navNextSlice.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<a class='a2page' href='page2' para='para1'> navigate in real time between slices</a> within one brain or ",
+
+					"<br><img src='images/navUp.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<img src='images/navDown.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<a class='a2page' href='page2' para='para1'> between individual brains</a> inside a project with your arrow keys.",
+
+					"<br><img src='images/sagittal.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<img src='images/coronal.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<img src='images/axial.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					" You can <a class='a2page' href='page2' para='para1'>change the orientation</a> of your slices,",
+
+					"<br><img src='images/adjust.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<img src='images/brightness.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<a class='a2page' href='page2' para='para1'> adjust brightness & contrast</a> of your data,",
+
+					"<br><img src='images/upload.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<img src='images/alpha.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<a class='a2page' href='page2' para='para1'> view different annotations</a> overlaid with your MRI data and ",
+					"<a class='a2page' href='page2' para='para1'> adjust their opacity</a> to your needs.",
+
+					"<br><img src='images/fullscreen.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					" view and annotate your data in <a class='a2page' href='page2' para='para1'>fullscreen mode</a> and",
+					"<br><img src='images/3drender.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					" view a <a class='a2page' href='page2' para='para1'>3D rendering</a> of your data.",
+
+
+
+					"<br><br><strong>Annotation:</strong> With BrainBox you can easily modify pre-computed segmentations or create new annotations.",
+					" You can",
+					"<br><a class='a2page' href='page2' para='para2'> edit available annotations</a> by ",
+					"<img src='images/paint.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<img src='images/fill.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<a class='a2page' href='page2' para='para2'> paint & fill</a>, ",
+					"(try <img src='images/preciseCursor.svg' style='width:25px; height:25px; vertical-align:middle;' /> \"precise cursor\" on iPad!), or ",
+					"<img src='images/erase.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<a class='a2page' href='page2' para='para2'> erase & fill</a>.",
+					"<br>You will love the <img src='images/undo.svg' style='width:25px; height:25px; vertical-align:middle;' />",
+					"<a class='a2page' href='page2' para='para2'> undo</a> button :D!",
+
+					" You can also <br><img src='images/upload.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<img src='images/alpha.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<a class='a2page' href='page2' para='para2'>upload annotation files</a> & view them overlaid with your MRI data and ",
+					"<a class='a2page' href='page2' para='para2'>adjust their opacity</a> for optimally working, or ",
+
+					"<br><img src='images/plus-circle.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<img src='images/minus-circle.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<a class='a2page' href='page2' para='para2'>create a new annotation layer</a> or delete one, respectively.",
+
+					"<br>While the MRIs stay stored on the web, your changes & annotations will be ",
+					"<a class='a2page' href='page2' para='para2'>saved to the BrainBox database</a>. To save changes you made in the annotation table, just clcik ",
+					"<br><img src='images/floppy.svg' style='width:25px; height:25px; vertical-align:middle;' /> save, ",
+					"while changes in the atlas-files will be automatically be saved every ten minutes or once you close the page. ",
+					"To get back to your annotation once you left the page, you will either find a link on the home page – if you were the person who added the MRI – ",
+					"or you will find it among the atlases on your user page.",
+
+					"You can also ",
+					"<br><img src='images/download.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<a class='a2page' href='page2' para='para2'>download your annotations</a>.",
+
+
+
+					"<br><br><strong>Cataloguisation: </strong>Once you enter a link to an online available MRI file, BrainBox will index it and keep the link. This way, ",
+					"a catalogue of online MRI data will be generated and make dormant data visible and accessible to a broader public. The MRI file will be visible ",
+					" --here -- ??(global unsorted catalogue?), as well as on the user page of the user who first loaded the MRI in.",
+					" Further, you can <a class='a2page' href='page2' para='para5'>create projects in BrainBox</a> and link MRIs & annotations inside of a project.",
+					" You can build & share your own project collections either with a restricted set of collaborators or with the world. While some sensitive MRI data may not be ",
+					"openly shared, all annotations shall eventually be freely available.",
+
+
+
+					"<br><br><strong>Collaboration: </strong>BrainBox provides a toggleable ",
+					"<br><img src='images/chat.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<a class='a2page' href='page2' para='para3'>chat window</a> where you can talk to your collaborators or send them a ",
+					"<br><img src='images/link.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<a class='a2page' href='page2' para='para3'>direct link</a> to your current working slice in your selected view.",
+					" As an owner of a project, you can also ",
+					"<br><img src='images/collaborators.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<a class='a2page' href='page2' para='para3'>add or collaborators</a> and distribute rights to ",
+					"<br> view or edit MRIs & to add or remove collaborators ",
+
+					
+
+					"<br><br><strong>Measurement: </strong>BrainBox allows you to ",
+					"<br><img src='images/ruler.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<a class='a2page' href='page2' para='para4'>take length measurements</a>, ",
+					" so you can get information about the extension of your region of interest or distances between regions with two clicks.",
+					" For the time being the values are printed into the chat from where you can copy them.",
+					
+
+
+					"<br><br><strong>Supported data formats: </strong> ",
+					"For the moment, BrainBox supports nifti file format",
+
+
+
+					"<br><br><strong>Libraries & frameworks: </strong>BrainBox is based on / uses MongoDB library ",
+
+
+
+					"<br><br>"
+					],
+			"image_url": "",
+			"image_title": "",
+			"image_text": ""
+		},
+		{
+			"text": [
+					""
+					],
+			"image_url": "images/QlJ44h.jpeg",
+			"image_title": "placeholder<br>",
+			"image_text": [		
+					"<img src='images/naat.svg' style='width:25px; height:25px; vertical-align:middle;' />",
+					"image description1",
+					" image description2"
+					]
+		}],
+		"scene": "scene1",
+		"viewer": false,
+		"next": "page2",
+		"previous": ""
+	},
+
+
+
+
+
+	{
+		"id": "page2",
+		"title": "Workflow",
+		"paragraphs" : [
+		{
+			"text" : "Navigate between slices & between brains",
+			"image_url": "images/002_navigate.gif",
+			"image_title": "Figure 1: figure figure figure figure figure figure",
+			"image_text": "figure figure figure figure figure figure figure figure figure figure figure figure figure figure figure figure figure figure"
+		},
+		{
+			"text" : [
+					"<strong>xxx:</strong> BrainBox ",
+					"",
+					"<br><img src='images/minus.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<br>"
+					],
+			"image_url": "",
+			"image_title": "",
+			"image_text": ""
+		},
+		{
+			"text": [
+					""
+					],
+			"image_url": "images/QlJ44h.jpeg",
+			"image_title": "placeholder<br>",
+			"image_text": [		
+					"<img src='images/naat.svg' style='width:25px; height:25px; vertical-align:middle;' />",
+					"image description1. ",
+					"image description2"
+					]
+		}],
+		"scene": "scene2",
+		"viewer": false,
+		"next": "page3",
+		"previous": "page1"
+		
+	},
+
+
+
+
+
+	{
+		"id": "page3",
+		"title": "Code",
+		"paragraphs" : [
+		{
+			"text" : "",
+			"image_url": "images/QlJ44h.jpeg",
+			"image_title": "Figure 1: figure figure figure figure figure figure",
+			"image_text": "figure figure figure figure figure figure figure figure figure figure figure figure figure figure figure figure figure figure figure figure figure figure figure figure figure figure figure"
+		},
+		{
+			"text" : [
+					"<strong>Authentification: </strong>using passport.js to authenticate using github. (http://www.jokecamp.com/tutorial-passportjs-authentication-in-nodejs/).",
+					" The idea behind using github is to use their versioning system to store all changes made to your annotation files at any point in time. Via ",
+					" pull-requests to OpenNeuroLab, all annotations of all users will be collected and available.",
+					"<br>",
+					"<strong>Get metadata associated to an MRI file: </strong>",
+					"there is an /api/mri route to get the metadata associated to an mri file: ",
+					"http://brainbox.dev/api/mri?url=http://web.com/MRI.nii.gz ",
+					"that will return the complete info.json data associated to that mri ",
+					"to get a specific variable, use var=variable, for example",
+					"You can",
+					"<br><img src='images/minus.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<br><br>"
+					],
+			"image_url": "",
+			"image_title": "",
+			"image_text": ""
+		},
+		{
+			"text": [
+					""
+					],
+			"image_url": "images/QlJ44h.jpeg",
+			"image_title": "placeholder<br>",
+			"image_text": [		
+					"<img src='images/naat.svg' style='width:25px; height:25px; vertical-align:middle;' />",
+					"image description1. ",
+					"image description2"
+					]
+		}],
+		"scene": "scene3",
+		"viewer": false,
+		"next": "page4",
+		"previous": "page2"
+	},
+
+
+
+
+
+	{
+		"id": "page4",
+		"title": "Setup locally",
+		"paragraphs" : [
+		{
+			"text" : "",
+			"image_url": "",
+			"image_title": "",
+			"image_text": ""
+		},
+		{
+			"text" : [
+					"<strong>Installation: </strong> ",
+					"<br>",
+					"<strong>xxx: </strong>",
+					"text",
+					"<br><img src='images/plus.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<br><br>"
+					],
+			"image_url": "",
+			"image_title": "",
+			"image_text": ""
+		},
+		{
+			"text": [
+					""
+					],
+			"image_url": "images/QlJ44h.jpeg",
+			"image_title": "BrainBox <br>",
+			"image_text": [		
+					"<img src='images/xyz.svg' style='width:25px; height:25px; vertical-align:middle;' />",
+					"text1",
+					" text2"
+					]
+		}],
+		"scene": "scene4",
+		"viewer": false,
+		"next": "page5",
+		"previous": "page3"
+	},
+
+
+
+
+
+	{
+		"id": "page5",
+		"title": "Media",
+		"paragraphs" : [
+		{
+			"text" : "",
+			"image_url": "",
+			"image_title": "",
+			"image_text": ""
+		},
+		{
+			"text" : [
+					"<img src='images/next.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
+					"<a class='a2page' href='page2' para='para1'> text </a>",
+					"text",
+					"<br><br>"
+					],
+			"image_url": "",
+			"image_title": "",
+			"image_text": ""
+		},
+		{
+			"text": [
+					""
+					],
+			"image_url": "images/QlJ44h.jpeg",
+			"image_title": "Navigator<br>",
+			"image_text": [		
+					"<img src='images/slider.svg' style='width:25px; height:25px; vertical-align:middle;' />",
+					"text"
+					]
+		}],
+		"scene": "scene5",
+		"viewer": false,
+		"next": "",
+		"previous": "page4"
+	}
+]

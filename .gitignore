@@ -1,5 +1,7 @@
 github-keys.json
 public/data
 public/project/braincatalogue-dev
+public/doc/pub/config/elementsSicherung.json
+public/doc/pub/images/images_work
 node_modules
 tmp

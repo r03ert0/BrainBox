@@ -1,0 +1,108 @@
+[
+	{
+        "id": "tex1",
+        "name": "t1 anatomy",
+        "type": "texture",
+        "url": "mr188_t1_pl.nii",
+		"transparency": 1.0
+    },
+    {
+        "id": "tex2",
+        "name": "fa rgb",
+        "type": "texture",
+        "url": "mr188_fa_rgb.nii",
+		"transparency": 1.0
+    },
+    {
+        "id": "tex3",
+        "name": "prob tracking",
+        "type": "texture",
+        "url": "mr188_overlay.nii",
+		"transparency": 1.0
+    },
+    {
+        "id": "tex4",
+        "name": "fmri",
+        "type": "texture",
+        "url": "mr188_fmri.nii",
+		"transparency": 1.0
+    },
+	{
+        "id": "lhemi",
+        "name": "Left hemisphere",
+        "type": "mesh",
+        "url": "mesh_lhemi.json",
+		"transparency": 0.6
+    },
+    {
+        "id": "rhemi",
+        "name": "Right hemisphere",
+        "type": "mesh",
+        "url": "mesh_rhemi.json",
+		"transparency": 0.6
+    },
+    {
+        "id": "head",
+        "name": "Head",
+        "type": "mesh",
+        "url": "mesh_head.json",
+		"transparency": 0.4,
+		"color": {"r": 0.89, "g": 0.77, "b": 0.64}
+    },
+    {
+        "id": "fib1",
+        "name": "arcuate fascicle left",
+        "type": "fibre",
+        "url": "fib_ac_left.json",
+		"color": {"r": 0.2, "g": 1.0, "b": 0.6}
+    },
+    {
+        "id": "fib2",
+        "name": "arcuate fascicle right",
+        "type": "fibre",
+        "url": "fib_ac_right.json",
+		"color": {"r": 0.6, "g": 0.2, "b": 1.0}
+    },
+    {
+        "id": "fib3",
+        "name": "anterior thalamic radiation left",
+        "type": "fibre",
+        "url": "fib_atr_left.json",
+		"color": {"r": 1.0, "g": 0.2, "b": 0.6}
+    },
+	{
+        "id": "fib4",
+        "name": "anterior thalamic radiation right",
+        "type": "fibre",
+        "url": "fib_atr_right.json",
+		"color": {"r": 0.6, "g": 1.0, "b": 0.2}
+    },
+	{
+        "id": "fib9",
+        "name": "extreme capsule fibre system left",
+        "type": "fibre",
+        "url": "fib_ecfs_left.json",
+		"color": {"r": 1.0, "g": 0.3, "b": 0.0}
+    },
+	{
+        "id": "fib10",
+        "name": "extreme capsule fibre system right",
+        "type": "fibre",
+        "url": "fib_ecfs_right.json",
+		"color": {"r": 1.0, "g": 0.3, "b": 0.0}
+    },
+	{
+        "id": "fib19",
+        "name": "uncinate fascicle left",
+        "type": "fibre",
+        "url": "fib_unc_left.json",
+		"color": {"r": 0.0, "g": 1.0, "b": 0.0}
+    },
+	{
+        "id": "fib20",
+        "name": "uncinate fascicle right",
+        "type": "fibre",
+        "url": "fib_unc_right.json",
+		"color": {"r": 0.0, "g": 1.0, "b": 0.0}
+    }
+]

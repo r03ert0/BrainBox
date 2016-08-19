@@ -1,0 +1,16 @@
+[
+    {
+        "buttonID": "tex1",
+        "mouseover" : ["tex1"],
+        "toggles" : ["tex1"],
+        "enables" : ["slices"],
+        "disables": ["lhemi", "rhemi"]
+    },
+    {
+        "buttonID": "surf",
+        "mouseover" : [],
+        "toggles" : ["fsaverage5"],
+        "enables" : [],
+        "disables": ["slices"]
+    }
+]

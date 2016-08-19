@@ -1,0 +1,58 @@
+[
+    {
+        "id": "tex1",
+        "name": "t1 anatomy",
+        "type": "texture",
+        "url": "exampleData/T1_example.nii",
+        "transparency": 1.0
+    },
+    {
+        "id": "head",
+        "name": "Head",
+        "type": "mesh",
+        "url": "/exampleData/mesh_head.json",
+		"transparency": 0.4,
+		"display": false,
+		"color": {"r": 0.89, "g": 0.77, "b": 0.64}
+    },
+	{
+        "id": "lhemi",
+        "name": "Left hemisphere",
+        "type": "mesh",
+        "url": "exampleData/mesh_lhemi.json",
+        "transparency": 0.5,
+        "display": false
+    },
+    {
+        "id": "rhemi",
+        "name": "Right hemisphere",
+        "type": "mesh",
+        "url": "exampleData/mesh_rhemi.json",
+		"transparency": 0.5,
+		"display": false
+    },
+    {
+        "id": "fsaverage5",
+        "name": "Surface",
+        "type": "mesh",
+        "url": "exampleData/surface_white.json",
+        "transparency": 0.5,
+        "display": false
+    },
+    {
+        "id": "thresBA45",
+        "name": "rs-fMRI connectivity BA45 bin",
+        "type": "mesh",
+        "url": "exampleData/BA45seedConnMesh.json",
+        "transparency": 0.5,
+        "display": false
+    },
+    {
+        "id": "threslang",
+        "name": "BA44 - pSTG ROI",
+        "type": "mesh",
+        "url": "exampleData/BA44andWernicke.json",
+        "transparency": 0.5,
+        "display": false
+    }
+]

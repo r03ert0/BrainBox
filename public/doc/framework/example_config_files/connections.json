@@ -1,0 +1,53 @@
+[
+{ 
+	"id": "con1",
+	"id2": "con2",
+	"fromId": "coord1",
+	"toId": "coord2", 
+	"color": {"r": 0.0, "g": 1.0, "b": 0.0},
+	"strength": 2,
+	"size": 5,
+	"distance": 20,
+	"speed": 1,
+	"color2": {"r": 0.0, "g": 0.0, "b": 1.0},
+	"strength2": 1,
+	"size2": 3,
+	"distance2": 10,
+	"speed2": 2,
+	"display": false 
+},
+{ 
+	"id": "con3",
+	"id2": "con4",
+	"fromId": "coord2",
+	"toId": "coord3", 
+	"color": {"r": 1.0, "g": 1.0, "b": 0.0},
+	"strength": 1,
+	"size": 10,
+	"distance": 5,
+	"speed": 0.5,
+	"color2": {"r": 0.0, "g": 1.0, "b": 1.0},
+	"strength2": 1,
+	"size2": 3,
+	"distance2": 10,
+	"speed2": 1,
+	"display": false 
+},
+{ 
+	"id": "con5",
+	"id2": "con6",
+	"fromId": "coord3",
+	"toId": "coord4", 
+	"color": {"r": 1.0, "g": 0.0, "b": 0.0},
+	"strength": 3,
+	"size": 5,
+	"distance": 10,
+	"speed": 1,
+	"color2": {"r": 0.0, "g": 1.0, "b": 0.0},
+	"strength2": 1,
+	"size2": 3,
+	"distance2": 10,
+	"speed2": 1,
+	"display": false 
+}
+]

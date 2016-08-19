@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>BrainBox documentation</title>
+        
+        <link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />	
+		<script data-main="../framework/javascripts/main" src="../framework/javascripts/require-jquery.js"></script>
+    </head>
+    <body class="">
+        <div id="wrapper">
+            <div id="content-container">
+                <nav id="nav">
+                    <ul>
+                        <li><a href="index.html">Intro</a></li>
+                        <li><a class='a2page' href='page2'>Workflow</a></li>
+                        <li><a class='a2page' href='page3'>Code</a></li>
+                        <li><a class='a2page' href='page4'>Setup locally</a></li>
+                        <li><a class='a2page' href='page5'>Media</a></li>
+                    </ul>
+                </nav>
+                <div id="content-outer">
+                    <section id="content"></section>
+                </div>
+            </div>
+            <div id="sidebar-container">
+                <aside id="sidebar">
+                	
+                    <nav id="viewer-nav">
+                        <ul>
+                            <li><a id="controlsLink" href="#controls">Controls</a></li>
+                            <li><a id="resetLink" href="#reset-view">Reset view</a></li>
+                        </ul>
+                    </nav>
+                    <div id="viewer">
+                        <canvas id="viewer-canvas"></canvas>
+                        <div id="controls">
+                            <div id="controls-toggles">
+                                <div><input type="checkbox" id="showTexture" /><label for="showTexture">T1/FA_RGB</label></div>
+                                <div><input type="checkbox" id="showActivations" /><label for="showActivations">Activations</label></div>
+                            </div>
+                            <div id="controls-slices">
+                                <div><label for="sliceX">X </label><input type="range" min="14" max="145" id="sliceX" value="80" step="1" /></div>
+                                <div><label for="sliceY">Y </label><input type="range" min="11" max="189" id="sliceY" value="100" step="1" /></div>
+                                <div><label for="sliceZ">Z </label><input type="range" min="9" max="149" id="sliceZ" value="80" step="1" /></div>
+                            </div>
+                        </div>
+                        <div id="toggles">
+                        	<section id="elements"></section>
+                        	<section id="activations"></section>
+                    	</div>
+                    </div>
+                    
+                    <div id="status"></div>
+                </aside>
+            </div>
+		<script>window.settings = {'DATA_URL': './data/', 'CONFIG_URL': './config/'};</script>        
+    </body>
+</html>

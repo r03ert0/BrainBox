@@ -1,0 +1,75 @@
+[
+	{
+		"id": "scene1",
+		"name": "view front left",
+		"isView" : true,
+		"cameraPosition": [2.0, -2.2, 0.2],
+		"elementsAvailable": ["head"],
+		"elementsActive": ["lhemi", "rhemi"],
+		"cameraTranslation": [0, 0],
+		"cameraZoom": 1.0
+	},
+	{
+		"id": "scene2",
+		"name": "view front left",
+		"isView" : true,
+		"cameraPosition": [2.0, -2.2, 0.2],
+		"elementsAvailable": [],
+		"elementsActive": ["thresBA45"],
+		"cameraTranslation": [0, 0],
+		"cameraZoom": 1.0
+	},
+	{
+		"id": "scene3",
+		"name": "view coronal",
+		"isView" : true,
+		"cameraPosition": [2.0, -2.2, 0.2],
+		"cameraTranslation": [0, 0],
+		"cameraZoom": 1.0
+	},
+	{
+		"id": "scene4",
+		"name": "scene 1",
+		"isView" : false,
+		"cameraPosition": [1.57, -1.57, 0.0],
+		"cameraTranslation": [0, 0],
+		"cameraZoom": 1.0,
+		"elementsAvailable": ["lhemi"],
+		"elementsActive": ["rhemi"],
+		"activationsAvailable": [],
+		"activationsActive": [],
+		"slices": [80, 100, 80],
+		"texture1": "tex1",
+		"texture2": "none"
+	},
+	{
+		"id": "scene5",
+		"name": "scene 2",
+		"isView" : false,
+		"cameraPosition": [0.0, 0.0, 0.0],
+		"cameraTranslation": [0, 0],
+		"cameraZoom": 1.0,
+		"elementsAvailable": [],
+		"elementsActive": [],
+		"elementsAvailable": ["rhemi", "thresBA45"],
+		"elementsActive": ["lhemi"],
+		"slices": [80, 100, 80],
+		"texture1": "tex1",
+		"texture2": "tex2"
+	},
+	{
+		"id": "scene6",
+		"name": "scene 3",
+		"isView" : false,
+		"cameraPosition": [1.57, 0.0, 0.0],
+		"cameraTranslation": [0, 0],
+		"cameraZoom": 1.0,
+		"elementsAvailable": [],
+		"elementsActive": ["threslang"],
+		"activationsAvailable": [],
+		"activationsActive": [],
+		"slices": [80, 100, 80],
+		"texture1": "tex1",
+		"texture2": "tex3"
+	}
+]
