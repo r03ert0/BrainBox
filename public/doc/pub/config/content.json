@@ -109,7 +109,8 @@
 
 
 					"<br><br><strong>Supported data formats: </strong> ",
-					"For the moment, BrainBox supports nifti file format",
+					"For the moment, BrainBox supports nifti file format. Freesurfer segmentations can be loaded and annotated when having been ",
+					"<a class='a2page' href='page2' para='para3'>converted to nifti</a>.",
 
 
 
@@ -157,7 +158,8 @@
 		},
 		{
 			"text" : [
-					"<strong>xxx:</strong> BrainBox ",
+					"<strong>Conversion: </strong>with mri_convert for instance",
+					"<br>mri_convert /pathToYourFreesurferFolder/subjects/subjectID/mri/orig/001.mgz /pathToYourNiftiData/MRI.nii.gz ",
 					"",
 					"<br><img src='images/minus.svg' style='width:25px; height:25px; vertical-align:middle;' /> ",
 					"<br>"
