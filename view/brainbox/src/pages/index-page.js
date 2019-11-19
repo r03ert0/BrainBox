@@ -19,7 +19,7 @@ function goToURL() {
  */
 function testWebSockets() {
     return new Promise(function(resolve, reject) {
-        var host = "ws://ws.websocketstest.com:8080/service";
+        var host = "ws://websocketstest.com:8080/service";
         var ws;
 
         if (window.WebSocket) {
@@ -53,17 +53,15 @@ testWebSockets()
 $(".slide").height(window.innerHeight);
 $(window).on('resize', function() {
     $(".slide").height(window.innerHeight);
-    $("#neurons").css({width:window.innerWidth});
 });
 
 // go to url button
 $("#go").click(goToURL);
 
 // video settings
-var vid = document.getElementById("neurons");
-vid.playbackRate = 0.5;
-vid.onloadedmetadata = function() {
-    $("#neurons").css({width:window.innerWidth});
+var vid = document.getElementById("bgBrains");
+vid.onplaying = function() {
+    vid.playbackRate = 0.5;
 };
 
 // List of brains

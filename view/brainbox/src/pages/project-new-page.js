@@ -1,10 +1,18 @@
 /* global $ */
 
-import * as DOMPurify from '../../../downloads/purify.min.js';
+import 'jquery-ui/themes/base/core.css';
+import 'jquery-ui/themes/base/theme.css';
+import 'jquery-ui/themes/base/autocomplete.css';
+import 'jquery-ui/ui/core';
+import 'jquery-ui/ui/widgets/autocomplete';
 
 import '../style/style.css';
 import '../style/ui.css';
 import '../style/projectNew-style.css';
+
+import * as DOMPurify from 'dompurify';
+
+import $ from 'jquery';
 
 var host = "ws://" + window.location.hostname + ":8080/";
 let ws;
@@ -46,6 +54,6 @@ $("#projectName").on('keyup',function(e) {
 });
 
 $("#createProject").click(function cancelChanges(){location.pathname='/project/'+$("#projectName").val()+'/settings'});
-$("#cancelChanges").click(function cancelChanges(){location.pathname='{{{projectURL}}}'});
+$("#cancelChanges").click(function cancelChanges(){location.pathname=projectURL});
 
 $("#addProject").click(function(){location="/project/new"});
